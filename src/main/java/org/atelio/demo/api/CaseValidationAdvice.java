@@ -17,7 +17,7 @@ public class CaseValidationAdvice {
 
     @ModelAttribute
     public void validateCaseRef(@PathVariable String caseRef) {
-        if (!caseService.get(caseRef)) {
+        if (caseService.getCaseId(caseRef).isEmpty()) {
             throw new ResponseStatusException(HttpStatus.NOT_FOUND, "Open case not found");
         }
     }

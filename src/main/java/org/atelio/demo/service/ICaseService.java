@@ -6,9 +6,10 @@ import org.atelio.demo.model.caseData.Transaction;
 import org.atelio.demo.model.demographicInfo.DemographicInfo;
 
 import java.util.List;
+import java.util.Optional;
 
 public interface ICaseService {
-    boolean get(String caseId);
+    Optional<String> getCaseId(String caseId);
     boolean lock(String caseId);
     void unlock(String caseId);
     DemographicInfo getDemographicInfo(String caseId);

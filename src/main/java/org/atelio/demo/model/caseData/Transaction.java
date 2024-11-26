@@ -1,10 +1,14 @@
 package org.atelio.demo.model.caseData;
 
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;
+import lombok.Getter;
 import lombok.ToString;
 
 import java.math.BigDecimal;
 
+@JsonSerialize
+@Getter
 @AllArgsConstructor
 @ToString
 public class Transaction {

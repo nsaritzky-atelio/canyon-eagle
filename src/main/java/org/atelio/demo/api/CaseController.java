@@ -22,6 +22,11 @@ public class CaseController {
     this.caseService = caseService;
   }
 
+  @GetMapping("/caseId")
+  public ResponseEntity<?> get(@PathVariable String caseRef) {
+    return caseService.getCaseId(caseRef).map(ResponseEntity::ok).orElseGet(() -> ResponseEntity.notFound().build());
+  }
+
   @PostMapping("/lock")
   public ResponseEntity<?> lock(@PathVariable String caseRef) {
     logger.info("Attempting to lock case: {}", caseRef);
