@@ -1,4 +1,4 @@
-package org.atelio.demo.model.caseData;
+package org.atelio.eagle.model.caseData;
 
 import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import lombok.AllArgsConstructor;

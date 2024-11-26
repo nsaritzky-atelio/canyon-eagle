@@ -1,10 +1,10 @@
-package org.atelio.demo.api;
+package org.atelio.eagle.api;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.atelio.demo.model.caseData.Status;
-import org.atelio.demo.model.caseData.Tag;
-import org.atelio.demo.service.ICaseService;
+import org.atelio.eagle.model.caseData.Status;
+import org.atelio.eagle.model.caseData.Tag;
+import org.atelio.eagle.service.ICaseService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

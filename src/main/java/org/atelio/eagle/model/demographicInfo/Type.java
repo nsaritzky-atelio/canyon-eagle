@@ -1,4 +1,4 @@
-package org.atelio.demo.model.demographicInfo;
+package org.atelio.eagle.model.demographicInfo;
 
 public enum Type {
     BUSINESS,

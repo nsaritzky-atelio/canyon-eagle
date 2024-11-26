@@ -1,9 +1,9 @@
-package org.atelio.demo.service;
+package org.atelio.eagle.service;
 
-import org.atelio.demo.model.caseData.Status;
-import org.atelio.demo.model.caseData.Tag;
-import org.atelio.demo.model.caseData.Transaction;
-import org.atelio.demo.model.demographicInfo.DemographicInfo;
+import org.atelio.eagle.model.caseData.Status;
+import org.atelio.eagle.model.caseData.Tag;
+import org.atelio.eagle.model.caseData.Transaction;
+import org.atelio.eagle.model.demographicInfo.DemographicInfo;
 
 import java.util.List;
 import java.util.Optional;

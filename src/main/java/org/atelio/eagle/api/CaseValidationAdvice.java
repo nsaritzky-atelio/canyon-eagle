@@ -1,6 +1,6 @@
-package org.atelio.demo.api;
+package org.atelio.eagle.api;
 
-import org.atelio.demo.service.ICaseService;
+import org.atelio.eagle.service.ICaseService;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ModelAttribute;
