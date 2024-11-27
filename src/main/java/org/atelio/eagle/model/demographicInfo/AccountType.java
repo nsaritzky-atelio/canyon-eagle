@@ -1,6 +1,6 @@
 package org.atelio.eagle.model.demographicInfo;
 
-public enum Type {
+public enum AccountType {
     BUSINESS,
     PERSONAL
 }

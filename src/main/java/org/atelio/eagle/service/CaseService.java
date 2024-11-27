@@ -4,7 +4,7 @@ import org.atelio.eagle.model.caseData.Status;
 import org.atelio.eagle.model.caseData.Tag;
 import org.atelio.eagle.model.caseData.Transaction;
 import org.atelio.eagle.model.demographicInfo.DemographicInfo;
-import org.atelio.eagle.model.demographicInfo.Type;
+import org.atelio.eagle.model.demographicInfo.AccountType;
 import org.springframework.lang.NonNull;
 import org.springframework.lang.Nullable;
 import org.springframework.stereotype.Service;
@@ -44,7 +44,7 @@ public class CaseService implements ICaseService {
     var caseId = getCaseIdFromRef(caseRef);
     return new DemographicInfo(
         "Hans Gruber",
-        Type.BUSINESS,
+        AccountType.BUSINESS,
         "9876",
         null,
         "2121 Avenue of the Stars",

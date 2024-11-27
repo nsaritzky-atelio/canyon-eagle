@@ -15,7 +15,7 @@ import java.util.List;
 public class DemographicInfo {
     private String name;
 
-    private Type type;
+    private AccountType type;
 
     private String lastFourCard;
 
